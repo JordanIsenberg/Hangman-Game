@@ -1,0 +1,50 @@
+<!-- ADD IN A FILTER FOR POSSIBLE KEYS in alphabet -->
+<!-- Add in audio element -->
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman-Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Bootstrap link below -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<div class="text-center plusSize">
+			<h1>Hangman Game</h1>
+			<h2>Halloween Style!</h2>
+		</div>
+	</div>
+	<div class="coloring">
+		<div class="bordering">
+			<div class="row text-center">
+				<div class="col-md-6">
+					<!-- Left Section Containing Hangman or Style Images -->
+					<h1>Press the New Game button to begin!</h1>
+					<button class="button button-default dark" type="submit" id="new-game">New Game</button>
+					<h2 id="re-button"></h2>
+				</div>
+				<div class="col-md-6">
+					<!-- Right Section Containing Game Info -->
+					<h2 id="Wins">Wins: 0</h2>
+					<h2 id="Losses">Losses: 0</h2>
+					<h2 id="Current-Word"></h2>
+					<!-- Insert Word Created Here -->
+					<text></text>
+					<h2 id="Guesses-Remaining">Number of guesses remaining: 9</h2>
+					<!-- Insert Number of guess remaining here (starts at 12) -->
+					<h2 id="Letters-Guessed">Letters already guessed: </h2>
+					<!-- Insert letters already guessed here -->
+					<text></text>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+	background: url("../images/Dark_Spirals.png");
+}
+
+.coloring {
+	color: orange;
+	font-size: 18px;
+	font-family: 'Indie Flower', cursive;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.plusSize {
+	color: orange;
+	font-size: 40px;
+	font-family: 'Indie Flower', cursive;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.dark {
+	color: black;
+	font-size: 18px;
+	font-family: 'Indie Flower', cursive;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.bordering {
+	border-style: dotted;
+	border-width: 5px;
+}
+/* Add in laughing jack-o-lantern when guess is wrong */
+/* Move a ghost towards the character after each guess (12 wrong guesses)*/
